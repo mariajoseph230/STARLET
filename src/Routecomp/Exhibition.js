@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Footer from './Footer'
 import './Exhibition.css'
 
 import { useRef } from "react";
@@ -98,6 +98,7 @@ const Exhibition = () => {
       </form>
     </div>
     </div>
+    <Footer/>
     </div>
   );
 };

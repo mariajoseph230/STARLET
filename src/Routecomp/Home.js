@@ -3,6 +3,7 @@ import { FaBars, FaTimes ,FaSearch} from "react-icons/fa";
 import "./Home.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Footer from './Footer'
 
 function Home() {
 	const navRef = useRef();
@@ -18,12 +19,12 @@ function Home() {
 		<header>
 			<h3>SHE FARM</h3>
 			<nav  ref={navRef}>
-      <div className="search-bar">
+      {/* <div className="search-bar">
           <input type="text" placeholder="Search..." />
           <button>
             <FaSearch />
           </button>
-        </div>
+        </div> */}
 				<a href="/Home">Home</a>
 				<a href="/Sell">Sell products</a>
 				<a href="/Buy">Buy Products</a>
@@ -51,7 +52,9 @@ function Home() {
         <Card.Text>
           Do you want carrots ..?Click Buy Now
         </Card.Text>
-        <Button className="card-button" variant="primary">Buy Now</Button>
+        <a href="/Buynow" class="card-button">Buy Now</a>
+
+        {/* <Button className="card-button" variant="primary">Buy Now</Button> */}
       </Card.Body>
     </Card>     
 	<Card className="card" style={{ width: '18rem' }}>
@@ -127,11 +130,12 @@ function Home() {
 </div>
 
 
-</div >	
+</div >	button-container
 <div className="button-container">
 {/* <button className="Link-button" href="/Buy">View more products...</button> */}
 <a href="/buy" class="button">View more products...</a>
 </div>
+<Footer />
 </div>
 	);
 }
