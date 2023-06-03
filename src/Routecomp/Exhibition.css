@@ -6,7 +6,9 @@
     background-size: cover;
     /* Additional CSS properties for positioning and styling */
   }
-  
+.ex{
+   align-content: right;
+}
   
 .details-page {
     max-width: 400px; 
@@ -17,7 +19,7 @@
   
   
   h1 {
-    text-align: center;
+    text-align: right;
   }
   
   form {
@@ -44,7 +46,7 @@
   
   button {
     padding: 15px;
-    background-color: #C1E1C1;
+    background-color: #0c1b2c;
     color: #fff;
     cursor: pointer;
     border: none;
@@ -53,7 +55,7 @@
   }
   
   button:hover {
-    background-color: #BF1C29;
+    background-color: #C1E1C1;
     color: #000000;
   }
 
@@ -86,7 +88,6 @@
   }
   
   nav a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       margin: 0 1rem;
       color: var(--textColor);
       text-decoration: none;
@@ -154,7 +155,7 @@
   }
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: 700px ;
     padding: 20px;
   }
   
@@ -200,4 +201,3 @@
     background-color: #000000;
     color: #b3ffb3;
   }
-  
