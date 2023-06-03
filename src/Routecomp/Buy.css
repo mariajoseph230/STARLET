@@ -1,0 +1,131 @@
+/* .product-listing-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tbody tr {
+    cursor: pointer;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover td {
+    color: #fff;
+    background-color: #C1E1C1;
+    color: black;
+  }
+  
+  tbody tr:hover td:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  tbody tr:hover td:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  tbody td {
+    transition: all 0.3s ease;
+  }
+  
+  tbody td:first-child {
+    border-left: 5px solid transparent;
+  }
+  
+  tbody td:last-child {
+    border-right: 5px solid transparent;
+  }
+  
+  tbody td:not(:first-child):not(:last-child) {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  } */
+  .product-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 5px;
+  }
+  
+  .seller {
+    color: #888;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .exchange-select {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .buy-button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#C1E1C1;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #BF1C29;
+    color:#C1E1C1;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  .product-image {
+    width: 50%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
