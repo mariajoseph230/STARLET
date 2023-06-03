@@ -66,6 +66,12 @@ const Sell = () => {
     setVegetable('');
     setQuantity('');
     setImage(null);
+   
+   
+    alert('Registered successfully!');
+
+  
+    window.location.href = '/Home';
   };
 
   return (
